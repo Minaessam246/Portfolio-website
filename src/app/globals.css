@@ -6,6 +6,11 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+*{
+ margin: 0px;
+ padding: 0px;
+ /* width: 100%; */
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -15,7 +20,152 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+
   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(18, 18, 18);
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+}
+.mina{
+  background-color: rgb(35, 35, 35);
+}
+.home{
+  height: 70vh;
+ 
+}
+.navb{
+  background-color: rgb(18, 18, 18);
+
+}
+hr{
+  height: 0px;
+}
+.hov{
+  background-color: #00000094;
+
+border-radius: 6px;
+}
+
+.hove:hover .hov{
+  position: relative;
+
+  left: 0;
+  right: 0;
+  bottom: 312px;
+}
+.hove:hover  img{
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.hove:hover  img{
+  transition: all 0.5s;
+}
+
+
+
+.hove{
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+
+
+@media (max-width: 1024) {
+.media{
+  flex-direction: column;
+}
+.hov{
+  width: 100%;
+}
+.hel{
+  font-size: 4rem ;
+        line-height: 1;
+}
+
+
+
+.hove{
+  width: 100%;
+  /* margin: auto; */
+ 
+}
+
+
+.med{
+  width: 100%;
+}
+.but1{
+ 
+  width: 150px;
+  font-size: small;
+}
+.but2{
+  font-size: small;
+
+  width: 150px;
+}
+
+
+}
+
+@media (max-width: 1100px ) {
+ .left{
+margin: auto;
+  width: 80%;
+}
+.right{
+  margin: auto;
+  width: 80%;
+}
+}
+@media (max-width: 1500px ) {
+.hove{
+  margin: auto;
+width: 40%;
+}
+.hov{
+  width: 100%;
+}
+.mina{
+  background-color: transparent;
+  display: none;
+}
+
+}
+@media (max-width: 1000px) {
+.hove{
+width: 80%;
+margin: auto;
+}
+.hov{
+  width: 100%;
+}
+
+}
+@media (max-width: 789px) {
+.hove{
+width: 100%;
+margin: auto;
+}
+.hov{
+  width: 100%;
+}
+.home {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hel{
+  text-align: center;
+}
+.homebtns{
+  display: flex;
+  justify-content: center;
+ gap: 20px;
+}
+
 }

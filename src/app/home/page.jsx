@@ -47,11 +47,11 @@ export default function Home() {
 
 </div>
     </div>
-    <div className=' w-[450px] h-[450px] flex justify-center sm:mt-0  lg:mt-10 mr-5  rounded-full mina'>
+    <div className=' w-96 h-96 flex justify-center sm:mt-0  lg:mt-10 mr-5  rounded-full mina'>
     <img
         src="/person-playing-3d-video-games-device.jpg" 
         alt="mmm"
-        className="w-[350] h-[350] hidden xl:flex rounded-full mt-12 object-cover "/></div>
+        className="w-80 h-80 hidden xl:flex rounded-full mt-8 object-cover "/></div>
       
 </div>
 

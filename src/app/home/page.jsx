@@ -38,7 +38,7 @@ export default function Home() {
   
   <a 
   class="inline-block w-full but2 sm:w-fit rounded-full border-4 border-blue-700 hover:bg-slate-800 text-white mt-3" 
-  href="/Desktop/Mina Essam.docx" 
+  href="\Mina Essam.pdf" 
   download>
   <span class="block bg-[#121212] hover:bg-slate-800 rounded-full px-7 py-3">
     Download CV
@@ -47,7 +47,7 @@ export default function Home() {
 
 </div>
     </div>
-    <div className=' w-[450] h-[450] flex justify-center sm:mt-0  lg:mt-10 mr-5  rounded-full mina'>
+    <div className=' w-[450px] h-[450px] flex justify-center sm:mt-0  lg:mt-10 mr-5  rounded-full mina'>
     <img
         src="/person-playing-3d-video-games-device.jpg" 
         alt="mmm"
